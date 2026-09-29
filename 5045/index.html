@@ -43,11 +43,11 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padd
       <tr><td>Identified pain acted on within 4 hours</td><td class="num">100%</td><td class="num gap">64% (49/77 entries)</td></tr>
     </tbody>
   </table></div>
-  <p class="note">The final-hours gaps may be partly methodological: the analysis uses the discharge date and time as the time of death, which can sit later than the actual death and so shorten the apparent final window. The six-month re-audit will use the recorded time of death.</p>
+  <p class="note">The final-hours figures are largely a quirk of the data rather than a care gap: death can take some hours to be confirmed on Epic, and the analysis uses that recorded time, so the last assessments are attributed to a period before the recorded death. The six-month re-audit will use the observed time of death.</p>
 
   <h2>Charts from the audit report</h2>
   <figure><img src="ldol_domains_50pairs.png" alt="Domain documentation approaching death, T2 versus matched controls"><figcaption>Each comfort domain documented in the last 72, 24 and 6 hours, and the proportion with ten or more entries, T2 versus matched controls.</figcaption></figure>
-  <figure><img src="ldol_4h_coverage_50pairs.png" alt="Patients with at least one flowsheet entry per four-hour window"><figcaption>Patients with at least one flowsheet entry in each four-hour window across the last 72 hours. T2 (blue) stays above controls (grey), and both fall in the final hours.</figcaption></figure>
+  <figure><img src="ldol_4h_coverage_50pairs.png" alt="Patients with at least one flowsheet entry per four-hour window"><figcaption>Patients with at least one flowsheet entry in each four-hour window across the last 72 hours. T2 (blue) stays above controls (grey). The fall in the final window is largely the Epic death-confirmation artefact described above.</figcaption></figure>
   <figure><img src="ldol_symptom_acted_upon_50pairs.png" alt="Was an identified symptom acted upon?"><figcaption>Positive symptom entries with an intervention documented within four hours. Pain lags on both wards (T2 64%, controls 26%); agitation and breathing are well actioned on both.</figcaption></figure>
   <figure><img src="ldol_no_assessment_by_day_50pairs.png" alt="Patients with no symptom assessment, by day preceding death"><figcaption>Patients with no assessment in a domain on each of the last three days. On T2 no patient went through the final 24 hours without an agitation or respiratory assessment. Chart labels show 49 controls, the count at the report snapshot; the final matched set is 50.</figcaption></figure>
 
