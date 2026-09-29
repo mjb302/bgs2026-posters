@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>No One Dies Unassessed</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
+<style>
+:root{--ground:#FFFFFF;--ink:#1E2430;--muted:#5B6472;--rule:#D8DDE5;--nhs:#003087;--t2:#1B6CA8;--tint:#EEF3F9;--warn:#8A5A00;--warn-tint:#FFF6E0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ground:#12161C;--ink:#E8ECF2;--muted:#A3ACB9;--rule:#2C333D;--nhs:#9DB9F0;--t2:#6FAEE0;--tint:#1A2230;--warn:#F0C26B;--warn-tint:#2A2314}}
+:root[data-theme="dark"]{--ground:#12161C;--ink:#E8ECF2;--muted:#A3ACB9;--rule:#2C333D;--nhs:#9DB9F0;--t2:#6FAEE0;--tint:#1A2230;--warn:#F0C26B;--warn-tint:#2A2314}
+body{background:var(--ground);color:var(--ink);font-family:"Public Sans",system-ui,Arial,sans-serif;line-height:1.5;margin:0}
+main{max-width:960px;margin:0 auto;padding:40px 24px 64px}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--nhs);font-weight:600}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(1.7rem,3.6vw,2.4rem);line-height:1.15;margin:.3rem 0 .4rem;text-wrap:balance}
+.lede{color:var(--muted);max-width:65ch;margin:0 0 28px}
+h2{font-size:1.1rem;margin:40px 0 12px;font-weight:700}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:.95rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.82rem;letter-spacing:.04em;text-transform:uppercase}
+td.num{white-space:nowrap}.ok{color:var(--t2);font-weight:700}.gap{color:var(--warn);font-weight:700}
+.note{background:var(--warn-tint);color:var(--warn);border-radius:6px;padding:12px 16px;font-size:.92rem;margin:18px 0 0}
+figure{margin:0 0 32px}figure img{width:100%;height:auto;display:block;border:1px solid var(--rule);border-radius:4px;background:#fff}
+figcaption{color:var(--muted);font-size:.9rem;margin-top:8px;max-width:75ch}.wrap{overflow-x:auto}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padding-top:16px;margin-top:40px}
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">BGS Autumn Meeting 2026 · Poster 5045 · Companion page</div>
+  <h1>No one dies unassessed: comfort documentation in the last days of life on a dedicated end-of-life ward versus matched wards</h1>
+  <p class="lede">Full results of the first-cycle audit of last-days-of-life comfort observation on Ward T2 (The Willows) against Trust standard PRN-12613, with the charts from the audit report. Cambridge University Hospitals NHS Foundation Trust; registered service evaluation PRN8341.</p>
+
+  <h2>Results against the audit standards (T2, n = 50)</h2>
+  <div class="wrap"><table>
+    <thead><tr><th>Standard</th><th>Target</th><th>T2 result</th></tr></thead>
+    <tbody>
+      <tr><td>Last days of life care plan in place</td><td class="num">95%</td><td class="num ok">100% (50/50)</td></tr>
+      <tr><td>Each comfort domain documented in the last 72 hours</td><td class="num">100%</td><td class="num ok">98 to 100%</td></tr>
+      <tr><td>Comfort observation at least four-hourly (median coverage)</td><td class="num">100%</td><td class="num ok">90%</td></tr>
+      <tr><td>Each comfort domain documented in the last 6 hours</td><td class="num">100%</td><td class="num gap">60 to 62%</td></tr>
+      <tr><td>Pain reviewed in the last 6 hours of life</td><td class="num">80%</td><td class="num gap">60% (30/50)</td></tr>
+      <tr><td>Identified pain acted on within 4 hours</td><td class="num">100%</td><td class="num gap">64% (49/77 entries)</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">The final-hours gaps may be partly methodological: the analysis uses the discharge date and time as the time of death, which can sit later than the actual death and so shorten the apparent final window. The six-month re-audit will use the recorded time of death.</p>
+
+  <h2>Charts from the audit report</h2>
+  <figure><img src="ldol_domains_50pairs.png" alt="Domain documentation approaching death, T2 versus matched controls"><figcaption>Each comfort domain documented in the last 72, 24 and 6 hours, and the proportion with ten or more entries, T2 versus matched controls.</figcaption></figure>
+  <figure><img src="ldol_4h_coverage_50pairs.png" alt="Patients with at least one flowsheet entry per four-hour window"><figcaption>Patients with at least one flowsheet entry in each four-hour window across the last 72 hours. T2 (blue) stays above controls (grey), and both fall in the final hours.</figcaption></figure>
+  <figure><img src="ldol_symptom_acted_upon_50pairs.png" alt="Was an identified symptom acted upon?"><figcaption>Positive symptom entries with an intervention documented within four hours. Pain lags on both wards (T2 64%, controls 26%); agitation and breathing are well actioned on both.</figcaption></figure>
+  <figure><img src="ldol_no_assessment_by_day_50pairs.png" alt="Patients with no symptom assessment, by day preceding death"><figcaption>Patients with no assessment in a domain on each of the last three days. On T2 no patient went through the final 24 hours without an agitation or respiratory assessment. Chart labels show 49 controls, the count at the report snapshot; the final matched set is 50.</figcaption></figure>
+
+  <h2>What happens next</h2>
+  <p>Four actions with named owners and a target date of 1 October 2026: sustain at least four-hourly comfort observation to the point of death, with a final-hours prompt on the electronic flowsheet; link identified pain to a prompt, documented intervention; extend the T2 comfort-observation standard to dying patients before transfer and on other wards through education and the palliative referral pathway; and re-audit at six months, completing the nutrition, hydration, oral care and relatives standards through the whole-cohort baseline audit.</p>
+
+  <footer>Butler M, Johnston J, O'Hara T, Bailey A, Jones K. Cambridge University Hospitals NHS Foundation Trust. Retrospective audit of electronic last-days-of-life flowsheet exports for the final 72 hours of life; first 50 consecutive T2 deaths matched 1:1 to acute ward deaths on specialty, age within ten years and nearest length of stay; paired Wilcoxon and exact McNemar tests.</footer>
+</main>
+</body>
+</html>
